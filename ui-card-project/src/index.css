@@ -3,14 +3,20 @@
 *{
     scroll-behavior: smooth;
 }
+body{
+    background-image: url("https://plus.unsplash.com/premium_photo-1675490808284-7c8b3c1f0795?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
+    /* background-size: cover; */
+}
 ::-webkit-scrollbar {
     width: 6px;
     height: 10px;
 }  
 ::-webkit-scrollbar-track{
-    background-color: #fde6d6;
+    background-color: #0041c2;
 }
 ::-webkit-scrollbar-thumb {
-    background: black;
+    background: #c0e6f0;
     border-radius: 4px;
 }
