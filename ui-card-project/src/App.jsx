@@ -107,17 +107,12 @@ const App = () => {
   ];
   
   return (
-    <div id="img-container" className='m-0 p-0 top-0 left-0 h-screen w-screen flex flex-wrap bg-[#fde6d6]'>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
-      <Card/>      
-      <Card/>
-      <Card/>
-      <Card/>
+    <div id="img-container" className='m-0 p-0 top-0 left-0 h-full w-full flex flex-wrap'>
+      {jobOpenings.map(function(elem){
+        return(<div>
+          <Card brandLogo={elem.brandLogo} company={elem.companyName} datePosted={elem.datePosted} post={elem.post} tag1={elem.tag1} tag2={elem.tag2} pay={elem.pay}/>
+        </div>)
+      })}
     </div>
   )
 }

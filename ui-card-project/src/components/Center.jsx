@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Center = () => {
+const Center = (props2) => {
   return (
     <div className='w-full px-3'>
         <div className='flex items-center justify-start'>

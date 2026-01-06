@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Bottom = () => {
+const Bottom = (props3) => {
   return (
     <div>
         <hr className='mx-4 decoration-[#d3d3d3]'/>
