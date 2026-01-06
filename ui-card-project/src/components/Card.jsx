@@ -1,7 +1,7 @@
 import React from 'react'
-import Top from './top'
-import Center from './center'
-import Bottom from './bottom'
+import Top from './Top'
+import Center from './Center'
+import Bottom from './Bottom'
 
 const Card = (props) => {
   return (
